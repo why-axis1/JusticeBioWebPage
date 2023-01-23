@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Product Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showAllProducts()">
+  <img src="https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/justicethetutor_1666114557073_original._CR154,146,465,465_._FMjpg_.jpeg" class="round-center-img">
+  <p class="image-text">@justicebuys</p>
+    <a href="https://www.amazon.com/shop/justicethetutor" class="my-button">
+      <img src="https://companieslogo.com/img/orig/AMZN-e9f942e4.png?t=1632523695" class="round-left-img">
+      ALL Amazon Products
+    </a>
+  <a href="https://givehugz.co" class="my-button">
+    <img src="https://cdn.shopify.com/s/files/1/0666/9130/1682/files/Hugz_Hero.png?v=1669050637&width=2000" class="round-left-img">
+    Weighted Stuffed Animals
+</a>
+  <p class="search-text">Search for all products below</p>
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Enter search keyword">
+    <button id="search-button" onclick="search()">Search</button>
+  </div>
+  <div id="results-container">
+  </div>
+  <script src="function.js"></script>
+</body>
+</html>
+
